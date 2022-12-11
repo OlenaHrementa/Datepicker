@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datepicker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="light">
+    <header>
+        <a href="#popup" class="btn"><span>Datepicker</span></a>
+    </header>
+    <div id="popup" class="popup">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#" class="popup-close">X</a>
+                <div class="datepicker">
+                    <div class="datepicker-header">
+                        <div class="month-picker">
+                            <span id="previous-month" class="month-change">
+                                <pre><</pre>
+                            </span>
+                            <span id="month-picker">April</span>
+                            <span id="next-month" class="month-change">
+                                <pre>></pre>
+                            </span>
+                        </div>
+                        <div class="year-picker">
+                            <span id="previous-year" class="year-change">
+                                <pre><</pre>
+                            </span>
+                            <span id="year">2023</span>
+                            <span id="next-year" class="year-change">
+                                <pre>></pre>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="datepicker-body">
+                        <div class="datepicker-week-days">
+                            <div>Sun</div>
+                            <div>Mon</div>
+                            <div>Tue</div>
+                            <div>Wed</div>
+                            <div>Thu</div>
+                            <div>Fri</div>
+                            <div>Sat</div>
+                        </div>
+                        <div class="datepicker-days"></div>
+                    </div>
+                    <div class="datepicker-foo">
+                        <div class="toggle">
+                            <span>Dark mode</span>
+                            <div class="dark-switch">
+                                <div class="dark-switch-indent"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
